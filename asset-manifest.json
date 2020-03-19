@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-integration-poc/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react-integration-poc/static/js/main.52224373.chunk.js",
+    "main.js.map": "/react-integration-poc/static/js/main.52224373.chunk.js.map",
+    "runtime-main.js": "/react-integration-poc/static/js/runtime-main.88d86733.js",
+    "runtime-main.js.map": "/react-integration-poc/static/js/runtime-main.88d86733.js.map",
+    "static/js/2.81b45dff.chunk.js": "/react-integration-poc/static/js/2.81b45dff.chunk.js",
+    "static/js/2.81b45dff.chunk.js.map": "/react-integration-poc/static/js/2.81b45dff.chunk.js.map",
+    "index.html": "/react-integration-poc/index.html",
+    "precache-manifest.c2ea57a37b5199a722677c2c475d0405.js": "/react-integration-poc/precache-manifest.c2ea57a37b5199a722677c2c475d0405.js",
+    "service-worker.js": "/react-integration-poc/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/react-integration-poc/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.81b45dff.chunk.js.LICENSE.txt": "/react-integration-poc/static/js/2.81b45dff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88d86733.js",
+    "static/js/2.81b45dff.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.52224373.chunk.js"
+  ]
+}
