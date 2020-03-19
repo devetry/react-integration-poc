@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ThreeSceneRenderer from './ThreeSceneRenderer';
 import CubeScene from './three-scenes/CubeScene'
 
-const CubeWithControls = () => {
+const CubeWithControls = ({ color }) => {
   const [{ height, width, depth }, setState] = useState({
     height: 200,
     width: 200,
@@ -15,7 +15,7 @@ const CubeWithControls = () => {
     };
   };
 
-  const scene = CubeScene(height, width, depth);
+  const scene = CubeScene(height, width, depth, color);
 
   return (
     <div>

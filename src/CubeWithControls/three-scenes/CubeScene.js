@@ -19,7 +19,7 @@ const buildCamera = (canvas) => {
   return camera;
 }
 
-const CubeScene = (height, width, depth) => {
+const CubeScene = (height, width, depth, color) => {
   const scene = buildScene();
   let renderer, camera;
 
@@ -38,10 +38,8 @@ const CubeScene = (height, width, depth) => {
   // no-op
   const onWindowResize = () => {};
 
-  const texture = new THREE.TextureLoader().load( 'textures/crate.gif' );
-
   const geometry = new THREE.BoxBufferGeometry( height, width, depth );
-  const material = new THREE.MeshBasicMaterial( { map: texture } );
+  const material = new THREE.MeshBasicMaterial( { color } );
 
   const mesh = new THREE.Mesh( geometry, material );
 
